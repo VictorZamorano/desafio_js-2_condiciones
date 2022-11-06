@@ -1,0 +1,15 @@
+{
+	"name": "desafio_js-condiciones",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"sassscript": "sass --watch assets/sass/main.scss assets/css/main.css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"sass": "^1.56.0"
+	}
+}

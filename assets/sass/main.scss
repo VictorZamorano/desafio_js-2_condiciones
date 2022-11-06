@@ -1,0 +1,118 @@
+body {
+	background-color: #ffefd6;
+	font-family: "Raleway", sans-serif;
+	font-family: "Silkscreen", cursive;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+s h3,
+h4 {
+	color: #0e5e6f;
+}
+
+h1 {
+	color: #ffefd6;
+	background-color: #0e5e6f;
+	text-align: center;
+	padding: 30px;
+	margin: 0;
+}
+
+.desafio1 {
+	text-align: center;
+	margin: 30px 0;
+	img {
+		width: 700px;
+		margin: 10px 0;
+	}
+}
+
+.desafio2 {
+	text-align: center;
+	color: #ffefd6;
+	background-color: #0e5e6f;
+	padding: 20px 0;
+	h2 {
+		color: #ffefd6;
+	}
+	p {
+		font-weight: 600;
+		padding: 20px;
+	}
+	.container-stickers {
+		display: flex;
+		justify-content: space-around;
+		justify-items: center;
+	}
+	.stickers {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		img {
+			height: 250px;
+		}
+	}
+	button {
+		border: 1px solid #f2deba;
+		border-radius: 5px;
+		padding: 10px 40px;
+		color: #0e5e6f;
+		background-color: #ffefd6;
+	}
+	button:hover {
+		color: #f2deba;
+		background-color: #3a8891;
+	}
+	button:active {
+		color: #f2deba;
+		background-color: #3a8891;
+		transform: translateY(4px);
+	}
+	input {
+		border-radius: 5px;
+	}
+}
+
+.desafio3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+	width: auto;
+	.container-border {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		border: solid 2px #3a8891;
+		width: 50vw;
+		height: 30vh;
+		button {
+			color: #fff;
+			background-color: #0e5e6f;
+			border: 1px solid #3a8891;
+			border-radius: 10px;
+			padding: 10px 40px;
+		}
+		button:hover {
+			color: #3a8891;
+			background-color: #f2deba;
+		}
+		button:active {
+			color: #3a8891;
+			background-color: #f2deba;
+			transform: translateY(4px);
+		}
+		.container-select select {
+			border-radius: 5px;
+			padding: 5px 15px;
+		}
+		p {
+			font-weight: 600;
+			color: #0e5e6f;
+		}
+	}
+}

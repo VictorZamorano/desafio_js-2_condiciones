@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- normalize -->
+		<link rel="stylesheet" href="assets/css/normalize.css" />
+		<!-- Style -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- fontts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&family=Silkscreen&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Condiciones</title>
+	</head>
+	<body>
+		<h1>Desafio Condiciones</h1>
+		<br />
+		<!-- Desafio1 -->
+		<section class="desafio1">
+			<h2><u>Desafio Parte 1: Bordes on click</u></h2>
+			<div class="onclick">
+				<h4>¡Click en la imagen para agregar y quitar un borde!</h4>
+				<img id="clickme" src="assets/imgs/pokemons.png" alt="pokemons" />
+			</div>
+		</section>
+		<!-- Desafio1 -->
+		<!-- Desafio2 -->
+		<section class="desafio2">
+			<h2><u>Desafio Parte 2: Stickers</u></h2>
+			<h3>¡Puedes llevar hasta 10 Pokemons!</h3>
+			<div class="container-stickers">
+				<div class="stickers">
+					<img src="assets/imgs/charmander.png" alt="charmander" />
+					<input
+						type="number"
+						name="pokemon1"
+						min="0"
+						value="1"
+						id="pokemon1"
+						placeholder="Escoge una cantidad"
+					/>
+				</div>
+				<div class="stickers">
+					<img src="assets/imgs/squirtle.png" alt="squirtle" />
+					<input
+						type="number"
+						name="pokemon2"
+						min="0"
+						value="1"
+						id="pokemon2"
+						placeholder="Escoge una cantidad"
+					/>
+				</div>
+				<div class="stickers">
+					<img src="assets/imgs/bulbasaur.png" alt="bulbasaur" />
+					<input
+						type="number"
+						name="pokemon3"
+						min="0"
+						value="1"
+						id="pokemon3"
+						placeholder="Escoge una cantidad"
+					/>
+				</div>
+			</div>
+			<p id="p-poke"></p>
+			<button id="btn-poke"><b>Verificar</b></button>
+		</section>
+		<!-- Desafio2 fin -->
+		<!-- Desafio3 -->
+		<section class="desafio3">
+			<h2><u>Desafio 3: Password</u></h2>
+			<div class="container-border">
+				<h2>Ingresa el password</h2>
+				<div class="container-select">
+					<select name="numbers" id="firstSelect">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+					</select>
+					<select name="numbers" id="secondSelect">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+					</select>
+					<select name="numbers" id="thridSelect">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+					</select>
+				</div>
+				<button id="btn-pass"><b>Ingresar</b></button>
+				<p id="pPass"></p>
+			</div>
+		</section>
+		<!-- Desafio3 fin -->
+		<script src="/assets/js/main.js"></script>
+	</body>
+</html>
