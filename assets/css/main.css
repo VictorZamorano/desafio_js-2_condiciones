@@ -72,6 +72,7 @@ h1 {
   transform: translateY(4px);
 }
 .desafio2 input {
+  text-align: center;
   border-radius: 5px;
 }
 
